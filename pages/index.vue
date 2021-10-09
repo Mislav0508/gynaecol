@@ -69,12 +69,17 @@
 
 export default {
   head: {
-    title: 'Home page',
+    title: 'Gynaecologia et perinatologia',
     meta: [
       {
-        hid: 'Gynaecologia et perinatologia | Home',
+        hid: 'Home',
         name: 'Gynaecologia et perinatologia | Home',
         content: 'Gynaecologia et perinatologia | Home'
+      },
+      {
+        hid: `keywords`,
+        name: 'keywords',
+        keywords: 'ginekologija, perinatologija, časopis'
       }
     ],
   }

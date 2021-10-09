@@ -32,12 +32,17 @@
 import axios from "axios"
 export default {
   head: {
-  title: `Supplements page`,
+  title: `Gynaecologia et perinatologia | Supplements`,
   meta: [
     {
-      hid: 'Gynaecologia et perinatologia | Supplements',
+      hid: 'Supplements',
       name: 'Gynaecologia et perinatologia | Supplements',
       content: 'Gynaecologia et perinatologia | Supplements'
+    },
+    {
+      hid: `keywords`,
+      name: 'keywords',
+      keywords: 'ginekologija, perinatologija, supplements'
     }
     ],
   },

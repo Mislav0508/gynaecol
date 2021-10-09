@@ -31,12 +31,17 @@
 import axios from "axios"
 export default {
   head: {
-  title: `Articles page`,
+  title: `Gynaecologia et perinatologia | Articles`,
   meta: [
     {
-      hid: 'Gynaecologia et perinatologia | Articles',
+      hid: 'Articles',
       name: 'Gynaecologia et perinatologia | Articles',
       content: 'Gynaecologia et perinatologia | Articles'
+    },
+    {
+      hid: `keywords`,
+      name: 'keywords',
+      keywords: 'ginekologija, perinatologija, articles'
     }
   ],
   },
